@@ -1,5 +1,7 @@
 # GraphTypeQL
 
+[![GraphQL](https://github.com/oscario2/GraphTypeQL/actions/workflows/main.yaml/badge.svg)](https://github.com/oscario2/GraphTypeQL/actions/workflows/main.yaml)
+
 ## Introduction
 
 A `graphql-js` object builder. Made in `deno` as a learning experience.
