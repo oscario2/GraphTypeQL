@@ -1,0 +1,12 @@
+{
+    "name": "graphql",
+    "description": "",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./build/index.js",
+    "module": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "scripts": {
+        "deno": "deno run --allow-read -c tsconfig.json tests/graphql.test.ts"
+    }
+}
