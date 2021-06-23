@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-unused-vars
-import { X2 } from '../deps.ts';
+import { X2 } from 'https://raw.githubusercontent.com/oscario2/x2/v0.0.1/index.ts';
 
 import {
     Arg,
