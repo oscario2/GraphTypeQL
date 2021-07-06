@@ -1,5 +1,5 @@
 # runtime
-DENO := deno run -A --unstable --no-check
+DENO := deno run -A --unstable -c tsconfig.json
 NODE := node
 
 # package
@@ -11,7 +11,7 @@ endef
 
 # docker
 DTAG := $(call package,version)
-DIMG := app:${DTAG}
+DIMG := graphql:${DTAG}
 
 # runtime
 deno:
@@ -26,6 +26,9 @@ all:
 # docker
 docker-build:
 	@docker image inspect ${DIMG} > /dev/null 2>&1 || docker build -t ${DIMG} .
+
+docker-remove:
+	@docker rmi -f ${DIMG}
 
 docker-run:
 	@docker run -it --network host --init ${DIMG}
