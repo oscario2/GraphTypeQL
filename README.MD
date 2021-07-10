@@ -1,4 +1,4 @@
-# GraphTypeQL
+# graphql.ts
 
 [![GraphQL](https://github.com/oscario2/GraphTypeQL/actions/workflows/main.yaml/badge.svg)](https://github.com/oscario2/GraphTypeQL/actions/workflows/main.yaml)
 
